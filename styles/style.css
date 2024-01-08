@@ -1,6 +1,6 @@
 /* importing fonts */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Merriweather:wght@400;900&display=swap');
+
 
 *{
     margin: 0;
@@ -75,7 +75,7 @@ main{
     text-align: center;
     font-size: 24px;
     font-weight: 500;
-    margin-top: 28px;
+    margin-top: 48px;
 }
 
 
@@ -127,7 +127,8 @@ main{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; 
-    width: 697px;
+    width: 697px; 
+    margin-top: 24px;
 }
 
 .join-now{
@@ -317,10 +318,10 @@ main{
 .holiday-sale-imgs{
     margin-top: 68px;
     height: 662px;
-    background:url('../resources/Group 75.png'),url('../resources/Group 44.png'), url('../resources/Rectangle 2.png'),url('../resources/shopping.jpg');
+    background:url('../resources/Group 75.png'),url('../resources/Group 44.png'), url('../resources/Rectangle 2.png'),url('../resources/shopping2.jpg');
     background-repeat: no-repeat;
-    background-position: 5% 70%, 55% 20%,bottom, top right;
-    background-size: 50% , 25% , 100% 33% , 50% 67%;
+    background-position: 5% 70%, 63% 20%,bottom, top right;
+    background-size: 50% , 25% , 100% 33% , 40% 67% ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -453,6 +454,14 @@ main{
     font-weight: 600;
     cursor: pointer;
 }
+
+.subscribe-inputs input[type='submit']:hover{
+      background-color: white;
+      box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.521);
+      color: #F00;
+}
+
+
 /* Subscribe section styling ends */
 /* main part styling ends here */ 
 
