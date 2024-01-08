@@ -8,7 +8,7 @@
 }
 
 
-/* banner styling starts here*/
+/* banner styling starts here */
 .banner-section{
     width: 82.5%;
     height: 600px;
@@ -41,11 +41,11 @@
     width: 632px;
     margin-top: 16px;
 }
-/* banner styling ends here*/
+/* banner styling ends here */
 
 
 
-/* main part styling starts here*/
+/* main part styling starts here */
 main{
     width: 82.5%;
     margin: auto;
@@ -138,6 +138,11 @@ main{
     color: #FFF;
     background:transparent;
     border: 0;
+    cursor: pointer;
+}
+
+.join-now:hover{
+    background: rgb(175, 27, 27);
 }
 
 .nightparty-year{
@@ -147,7 +152,7 @@ main{
 
 
 
-/* party location section starts here*/
+/* party location section styling starts here*/
 .party-location{
     display: flex;
     flex-direction: column;
@@ -172,7 +177,7 @@ main{
     background: #F00;
     margin-top: 48px;
 }
-/* party location section ends here*/
+/* party location section styling ends here*/
 
 
 
@@ -263,7 +268,7 @@ main{
 
 
 
-/* holiday sale section styling starts*/
+/* holiday sale section styling starts */
 .holiday-sale-section{
      margin: 120px;
 }
@@ -310,13 +315,13 @@ main{
     height: 662px;
     background:url('../resources/Group 75.png'),url('../resources/Group 44.png'), url('../resources/Rectangle 2.png'),url('../resources/shopping.jpg');
     background-repeat: no-repeat;
-    background-position: 10% 70%, 63% 20%,bottom, top right;
-    background-size: 50% , 25% , 100% 33% , 40% 67%;
+    background-position: 5% 70%, 55% 20%,bottom, top right;
+    background-size: 50% , 25% , 100% 33% , 50% 67%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-/* holiday sale section styling ends*/
+/* holiday sale section styling ends */
 
 
 
@@ -365,9 +370,22 @@ main{
     margin-top: 24px;
 }
 
+.portfolio-gifts img{
+    border: 5px transparent solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.portfolio-gifts img:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.434);
+}
+
 .gift{
     margin-right: 24px;
 }
+
+
+
 /* portfolio section styling ends */
 
 
@@ -433,10 +451,10 @@ main{
     cursor: pointer;
 }
 /* Subscribe section styling ends */
-/* main part styling ends here*/ 
+/* main part styling ends here */ 
 
 
-/* footer part styling starts here*/
+/* footer part styling starts here */
 
 footer{
     margin-top: 120px;
@@ -451,11 +469,11 @@ footer{
      margin: auto;
      display: flex;
      flex-direction: column;
-     justify-content: space-around;
+     justify-content: space-evenly;
 }
 
 
-/* contact section starts here */
+/* contact section styling starts here */
 .contact-info{
     display: flex;
     justify-content: space-between;
@@ -479,7 +497,7 @@ footer{
 .number span{
     margin-left: 10px;
 }
-/* contact section ends here */
+/* contact section styling ends here */
 
 /* social medias section styling starts here */
 .social-medias{
