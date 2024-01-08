@@ -458,7 +458,7 @@ main{
 .subscribe-inputs input[type='submit']:hover{
       background-color: white;
       box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.521);
-      color: #F00;
+      color: rgb(247, 0, 0);
 }
 
 
