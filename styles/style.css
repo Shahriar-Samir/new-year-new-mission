@@ -11,7 +11,7 @@
 /* banner styling starts here */
 .banner-section{
     width: 82.5%;
-    height: 600px;
+    height: 480px;
     margin: auto;
     margin-top: 50px;
     background: linear-gradient(to bottom , #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('../resources/Banner Image.png') no-repeat;
@@ -28,14 +28,14 @@
 .banner-greeting{
     color: #FFF;
     text-align: center; 
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 400;
 }
 
 .banner-title{
     color: #FFF;
     text-align: center;
-    font-size: 72px;
+    font-size: 58px;
     font-weight: 900;
     line-height: 95px; 
     width: 632px;
@@ -59,13 +59,13 @@ main{
     justify-content: center;
     align-items: center;
     font-family: 'Inter'; 
-    margin-top: 120px;
+    margin-top: 96px;
 }
 
 .discount-title{
     color: #F00;
     text-align: center;
-    font-size: 88px;
+    font-size: 70px;
     font-weight: 700;
 }
 
@@ -73,7 +73,7 @@ main{
 .discount-holiday{
     color: #F00;
     text-align: center;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 500;
     margin-top: 48px;
 }
@@ -82,13 +82,15 @@ main{
 .discount-categories{
     color: #070211;
     text-align: center;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     margin-top: 16px;
 }
 
 .discount-image{
-    margin-top: 48px;
+    height: 400px;
+    width: 641px;
+    margin-top: 38px;
 }
 /* discount section styling ends here */
 
@@ -103,38 +105,38 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 480px;
     margin-top: 120px;
 }
 
 .nightparty-texts{
-    margin-left: 126px;
+    margin-left: 100px;
 
 }
 
 .nightparty-greeting{
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 51px;
     font-weight: 900;
-    line-height: 88px;
-    width: 642px;
+    line-height: 70px;
+    width: 513.6px;
 }
 
 .nightparty-details{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 30px; 
-    width: 697px; 
+    line-height: 24px; 
+    width: 557px; 
     margin-top: 24px;
 }
 
 .join-now{
-    padding: 16px 32px;
+    padding: 12.8px 25.6px;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     color: #FFF;
     background:transparent;
@@ -151,7 +153,12 @@ main{
 }
 
 .nightparty-year{
-    margin-right: 155px;
+    margin-right: 110px;
+}
+
+.nightparty-year img{
+    width: 255px;
+    height: 371px;
 }
 /* night party section styling ends here */
 
@@ -164,12 +171,12 @@ main{
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) , rgba(255, 0, 0, 0.00) 100%);
-    height: 482px;
+    height: 308px;
     font-family: Inter;
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     font-style: normal;
-    line-height: 56px; 
+    line-height: 45px; 
     margin-top: 120px;
 }
 
@@ -191,7 +198,7 @@ main{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     height: 463px;
+     height: 370px;
      margin-top: 120px;
 }
 
@@ -206,7 +213,7 @@ main{
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
  
 }
@@ -214,7 +221,7 @@ main{
 .comming-soon{
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 900;
     margin-top: 16px;
 }
@@ -222,10 +229,10 @@ main{
 .best-offer-details{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 32px; 
-    width: 393px;
+    line-height: 26px; 
+    width: 315px;
     margin-top: 22px;
 }
 
@@ -234,12 +241,12 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    width: 463px;
-    height: 463px;
+    width: 370px;
+    height: 370px;
     box-sizing: border-box;
     border-radius: 50%;
-    outline: 15px solid #F00;
-    border: 30px solid #FFF;
+    outline: 12px solid #F00;
+    border: 24px solid #FFF;
 }
 
 .best-offer-newyear{
@@ -252,17 +259,17 @@ main{
 .best-offer-year{
     color: #F00;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
 }
 
 .best-offer-details2{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 32px; 
-    width: 276px;
+    line-height: 20px; 
+    width: 220px;
     margin-top: 16px;
 }
 
@@ -275,7 +282,7 @@ main{
 
 /* holiday sale section styling starts */
 .holiday-sale-section{
-     margin: 120px;
+     margin-top: 120px;
 }
 
 .holiday-sale-texts{
@@ -288,16 +295,16 @@ main{
 .holiday-sale-question{
     color: #070211;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 500;
 }
 
 .holiday-sale-title{
     color: #F00;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 57px;
     font-weight: 900;
-    margin-top: 16px;
+    margin-top: 13px;
 }
 
 .holiday-sale-title span{
@@ -308,16 +315,16 @@ main{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 32px; 
-    width: 1068px;
-    margin-top: 28px;
+    line-height: 25px; 
+    width: 868px;
+    margin-top: 22px;
 }
 
 .holiday-sale-imgs{
-    margin-top: 68px;
-    height: 662px;
+    margin-top: 54px;
+    height: 530px;
     background:url('../resources/Group 75.png'),url('../resources/Group 44.png'), url('../resources/Rectangle 2.png'),url('../resources/shopping2.jpg');
     background-repeat: no-repeat;
     background-position: 5% 70%, 63% 20%,bottom, top right;
@@ -331,35 +338,40 @@ main{
 
 
 /* portfolio section styling starts */
+
+.portfolio-section{
+    margin-top: 96px;
+}
+
 .portfolio-opening{
     color: #F00;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 500;
 }
 
 .portfolio-title{
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 900;
     line-height: normal;
-    margin-top: 16px;
+    margin-top: 13px;
 }
 
 .portfolio-details{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; 
+    line-height: 25px; 
     width: 896px;
-    margin-top: 22px;
+    margin-top: 17px;
 }
 
 .portfolio-gifts{
-    margin-top: 48px;
+    margin-top: 38px;
 }
 
 .gifts-row1{
@@ -372,12 +384,14 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 24px;
+    margin-top: 19px;
 }
 
 .portfolio-gifts img{
-    border: 5px transparent solid;
+    border: 4px transparent solid;
     border-radius: 20px;
+    width: 340px;
+    height: 360px;
     cursor: pointer;
 }
 
@@ -386,7 +400,7 @@ main{
 }
 
 .gift{
-    margin-right: 24px;
+    margin-right: 15px;
 }
 
 
@@ -397,8 +411,8 @@ main{
 
 /* Subscribe section styling starts */
 .subscribe-section{
-    margin-top: 120px; 
-    height: 616px;
+    margin-top: 96px; 
+    height: 492px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     display: flex;
@@ -410,47 +424,52 @@ main{
 .subscribe-title{
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 900;
-    margin-top: 40px;
+    margin-top: 32px;
 }
 
 .subscribe-details{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 25px;
     margin-top: 22px;  
-    width: 896px;
+    width: 716px;
+}
+
+.subscribe-img{
+     width: 120px;
+     height: 120px;
 }
 
 .subscribe-inputs{
-    margin-top: 48px;
+    margin-top: 38px;
 }
 
 .subscribe-inputs input[type='email']{
-    width: 438px;
-    height: 72px;
+    width: 350px;
+    height: 57px;
     border: 0;
     border-radius: 50px 0 0 50px ;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     box-sizing: border-box;
-    padding-left: 30px;
+    padding-left: 24px;
 }
 
 .subscribe-inputs input[type='submit']{
-    width: 210px;
-    height: 72px;
+    width: 168px;
+    height: 57px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     border: 0; 
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -469,10 +488,10 @@ main{
 /* footer part styling starts here */
 
 footer{
-    margin-top: 120px;
+    margin-top: 96px;
     width: 100%;
     background: #070211; 
-    height: 609px;
+    height: 487px;
 }
 
 .footer-content{
@@ -492,9 +511,9 @@ footer{
     align-items: center; 
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 32px;
 }
 
 .contact-numbers{
@@ -507,7 +526,7 @@ footer{
 }
 
 .number span{
-    margin-left: 10px;
+    margin-left: 8px;
 }
 /* contact section styling ends here */
 
@@ -518,8 +537,13 @@ footer{
      align-items: center;
 }
 
+.social-medias img{
+    width: 51px;
+    height: 51px;
+}
+
 .media{
-     margin-right: 25px;
+     margin-right: 16px;
 }
 
 /* social medias section styling ends here */
@@ -532,7 +556,7 @@ footer{
     align-items: center;
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 500;
 }
 /* copyright section styling ends here */
