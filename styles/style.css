@@ -366,7 +366,77 @@ main{
     margin-right: 24px;
 }
 
-
 /* portfolio section styling ends */
 
+
+/* Subscribe section styling ends */
+
+.subscribe-section{
+    margin-top: 120px; 
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.subscribe-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe-details{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;  
+    width: 896px;
+    margin-top: 22px;
+}
+
+.subscribe-inputs{
+    margin-top: 48px;
+
+}
+
+.subscribe-inputs input[type='email']{
+    width: 438px;
+    height: 72px;
+    border: 0;
+    border-radius: 50px 0 0 50px ;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.subscribe-inputs input[type='submit']{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0; 
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Subscribe section styling ends */
+
+
 /* main part styling ends here*/ 
+
+/* footer part styling starts here*/
+
+
+/* footer part styling starts here*/
