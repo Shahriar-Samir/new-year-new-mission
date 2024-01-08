@@ -141,6 +141,10 @@ main{
     cursor: pointer;
 }
 
+.join-now1{
+    margin-top: 20px;
+}
+
 .join-now:hover{
     background: rgb(175, 27, 27);
 }
