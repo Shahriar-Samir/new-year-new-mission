@@ -1,0 +1,191 @@
+/* importing fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Merriweather:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner styling starts here*/
+.banner-section{
+    width: 82.5%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(to bottom , #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('../resources/Banner Image.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+.banner-greeting{
+    color: #FFF;
+    text-align: center; 
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+    width: 632px;
+    margin-top: 16px;
+}
+
+/* banner styling ends here*/
+
+/* main part styling starts here*/
+main{
+    width: 82.5%;
+    margin: auto;
+}
+
+/* discount section styling starts here */
+.discount-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter'; 
+    margin-top: 120px;
+}
+
+.discount-title{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+
+.discount-holiday{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+
+
+.discount-categories{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.discount-image{
+    margin-top: 48px;
+}
+
+/* discount section styling ends here */
+
+/* night party section styling starts here */
+.nightparty-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to left , black ,rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.947)),url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-top: 120px;
+}
+
+.nightparty-texts{
+    margin-left: 126px;
+
+}
+
+.nightparty-greeting{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    width: 642px;
+}
+
+.nightparty-details{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 697px;
+}
+
+.join-now{
+    padding: 16px 32px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    background:transparent;
+    border: 0;
+}
+
+.nightparty-year{
+    margin-right: 155px;
+}
+
+/* night party section styling ends here */
+
+
+/* party location section starts here*/
+.party-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) , rgba(255, 0, 0, 0.00) 100%);
+    height: 482px;
+    font-family: Inter;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 56px; 
+    margin-top: 120px;
+}
+
+.party-location span{
+    color: #F00;
+}
+
+.join-now2{
+    border-radius: 8px;
+    background: #F00;
+    margin-top: 48px;
+}
+
+/* party location section ends here*/
+
+/* best offer section styling starts */
+.best-offer-section{
+     display: flex;
+     justify-content: space-between;
+     align-items: center; 
+     height: 482px;
+}
+
+.sparkles{
+    background: url('../resources/sparkles.jpg') no-repeat;
+    border-radius: 50%;
+    width: 40px;
+}
+
+/* best offer section styling ends */
+
+/* main part styling ends here*/
