@@ -176,16 +176,88 @@ main{
 .best-offer-section{
      display: flex;
      justify-content: space-between;
-     align-items: center; 
-     height: 482px;
+     align-items: center;
+     height: 463px;
+     margin-top: 120px;
+}
+
+.best-offer-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+}
+
+.best-offer-title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+ 
+}
+
+.comming-soon{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.best-offer-details{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 393px;
+    margin-top: 22px;
 }
 
 .sparkles{
     background: url('../resources/sparkles.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 50%;
-    width: 40px;
+    width: 463px;
+    height: 463px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    outline: 15px solid #F00;
+    border: 30px solid #FFF;
 }
+
+.best-offer-newyear{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.best-offer-year{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.best-offer-details2{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 276px;
+    margin-top: 16px;
+}
+
+.best-offer-wishing{
+    margin-top: 20px;
+}
+
+
 
 /* best offer section styling ends */
 
-/* main part styling ends here*/
+/* main part styling ends here*/ 
