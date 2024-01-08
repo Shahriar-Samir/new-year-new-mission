@@ -411,6 +411,7 @@ main{
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin-top: 40px;
 }
 
 .subscribe-details{
@@ -422,12 +423,10 @@ main{
     line-height: 32px;
     margin-top: 22px;  
     width: 896px;
-    margin-top: 22px;
 }
 
 .subscribe-inputs{
     margin-top: 48px;
-
 }
 
 .subscribe-inputs input[type='email']{
