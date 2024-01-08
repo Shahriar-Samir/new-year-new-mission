@@ -7,6 +7,7 @@
     padding: 0;
 }
 
+
 /* banner styling starts here*/
 .banner-section{
     width: 82.5%;
@@ -40,8 +41,9 @@
     width: 632px;
     margin-top: 16px;
 }
-
 /* banner styling ends here*/
+
+
 
 /* main part styling starts here*/
 main{
@@ -88,8 +90,9 @@ main{
 .discount-image{
     margin-top: 48px;
 }
-
 /* discount section styling ends here */
+
+
 
 /* night party section styling starts here */
 .nightparty-section{
@@ -140,8 +143,8 @@ main{
 .nightparty-year{
     margin-right: 155px;
 }
-
 /* night party section styling ends here */
+
 
 
 /* party location section starts here*/
@@ -169,8 +172,9 @@ main{
     background: #F00;
     margin-top: 48px;
 }
-
 /* party location section ends here*/
+
+
 
 /* best offer section styling starts */
 .best-offer-section{
@@ -255,10 +259,9 @@ main{
 .best-offer-wishing{
     margin-top: 20px;
 }
-
-
-
 /* best offer section styling ends */
+
+
 
 /* holiday sale section styling starts*/
 .holiday-sale-section{
@@ -313,11 +316,11 @@ main{
     justify-content: space-around;
     align-items: center;
 }
-
 /* holiday sale section styling ends*/
 
-/* portfolio section styling starts */
 
+
+/* portfolio section styling starts */
 .portfolio-opening{
     color: #F00;
     font-family: Inter;
@@ -365,12 +368,11 @@ main{
 .gift{
     margin-right: 24px;
 }
-
 /* portfolio section styling ends */
 
 
-/* Subscribe section styling ends */
 
+/* Subscribe section styling starts */
 .subscribe-section{
     margin-top: 120px; 
     height: 616px;
@@ -430,13 +432,80 @@ main{
     font-weight: 600;
     cursor: pointer;
 }
-
 /* Subscribe section styling ends */
-
-
 /* main part styling ends here*/ 
 
+
 /* footer part styling starts here*/
+
+footer{
+    margin-top: 120px;
+    width: 100%;
+    background: #070211; 
+    height: 609px;
+}
+
+.footer-content{
+     width: 82.5%;
+     height: 100%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+
+/* contact section starts here */
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact-numbers{
+    list-style: none;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+}
+
+.number span{
+    margin-left: 10px;
+}
+/* contact section ends here */
+
+/* social medias section styling starts here */
+.social-medias{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.media{
+     margin-right: 25px;
+}
+
+/* social medias section styling ends here */
+
+
+/* copyright section styling starts here */
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* copyright section styling ends here */
 
 
 /* footer part styling starts here*/
