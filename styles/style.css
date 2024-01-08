@@ -260,4 +260,113 @@ main{
 
 /* best offer section styling ends */
 
+/* holiday sale section styling starts*/
+.holiday-sale-section{
+     margin: 120px;
+}
+
+.holiday-sale-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday-sale-question{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-title{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.holiday-sale-title span{
+    color: #070211;
+}
+
+.holiday-sale-details{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; 
+    width: 1068px;
+    margin-top: 28px;
+}
+
+.holiday-sale-imgs{
+    margin-top: 68px;
+    height: 662px;
+    background:url('../resources/Group 75.png'),url('../resources/Group 44.png'), url('../resources/Rectangle 2.png'),url('../resources/shopping.jpg');
+    background-repeat: no-repeat;
+    background-position: 10% 70%, 63% 20%,bottom, top right;
+    background-size: 50% , 25% , 100% 33% , 40% 67%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* holiday sale section styling ends*/
+
+/* portfolio section styling starts */
+
+.portfolio-opening{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.portfolio-details{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 896px;
+    margin-top: 22px;
+}
+
+.portfolio-gifts{
+    margin-top: 48px;
+}
+
+.gifts-row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gifts-row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.gift{
+    margin-right: 24px;
+}
+
+
+/* portfolio section styling ends */
+
 /* main part styling ends here*/ 
